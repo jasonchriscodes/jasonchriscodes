@@ -59,13 +59,13 @@ const NavBar = () => {
               Skills
             </Nav.Link>
             <Nav.Link
-              href="/#works"
+              href="/#projects"
               className={
-                activeLink === "works" ? "active navbar-link" : "navbar-link"
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("works")}
+              onClick={() => onUpdateActiveLink("projects")}
             >
-              Works
+              Projects
             </Nav.Link>
             <Nav.Link
               href="/#projects"
@@ -100,16 +100,16 @@ const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="/#">
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="github img" />
               </a>
               <a href="/#">
-                <img src={navIcon2} alt="" />
+                <img src={navIcon2} alt="linkedin img" />
               </a>
               <a href="/#">
-                <img src={navIcon3} alt="" />
+                <img src={navIcon3} alt="instagram img" />
               </a>
               <a href="/#">
-                <img src={navIcon4} alt="" />
+                <img src={navIcon4} alt="facebook img" />
               </a>
             </div>
             <button className="" onClick={() => console.log("connect")}>
