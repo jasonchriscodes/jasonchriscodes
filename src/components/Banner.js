@@ -52,7 +52,8 @@ const Banner = () => {
           <Col className="text-left" xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hi I'm Jason Christian `}
+              {`Hi I'm Jason Christian`}
+              <br></br>
               <span className="wrap">{text}</span>
             </h1>
             <p>
